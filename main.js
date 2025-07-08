@@ -21,8 +21,11 @@ if (userAge > 65) {
 } else if (userAge < 18) {
     /* applico lo sconto del 40% al prezzo di base */
     finalPrice = basePrice - (basePrice / 100 * 20)
-    console.log('lo sconto del 20% è stato applicato' + finalPrice)
+    console.log('lo sconto del 20% è stato applicato ' + finalPrice)
 }
 else {
     console.log('Non puoi ricevere uno sconto')
+    finalPrice = basePrice;
 }
+
+document.writeln('il prezzo finale del tuo biglietto è ' + finalPrice + '€');
