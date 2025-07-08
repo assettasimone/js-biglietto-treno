@@ -1,9 +1,9 @@
 /* Ask Tickets km */
-const ticketKm = prompt('Inserisci il numero di kilometri per il biglietto');
+const ticketKm = Number(prompt('Inserisci il numero di kilometri per il biglietto'));
 console.log(ticketKm);
 
 /* Ask user Age */
-const userAge = prompt('Inserisci la tua età');
+const userAge = Number(prompt('Inserisci la tua età'));
 console.log(userAge);
 
 /* Calcolo il prezzo del biglietto base in base ai km */
